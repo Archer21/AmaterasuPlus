@@ -1,0 +1,92 @@
+<resources>
+    <string name="title_activity_reference">ActivityReference</string>
+
+    <string name="app_name">AmaterasuPlus</string>
+    <string name="login_username_hint">Nombre de usuario</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_facebook_button_text">Facebook</string>
+    <string name="login_twitter_button_text">Twitter</string>
+    <string name="login_button_text">Iniciar sesion</string>
+    <string name="signup_button_text">Registrate</string>
+    <string name="reset_text_plain">Olvidaste tu contraseña?</string>
+    <string name="reset_text_link">Obten una nueva aqui.</string>
+    <string name="placeholder_username">Allen Walker</string>
+    <string name="placeholder_email">allenWalkerx@gmail.com</string>
+    <string name="drawer_home_item">Home</string>
+    <string name="drawer_search_item">Buscar</string>
+    <string name="configuracion_item">Configuracion</string>
+    <string name="log_out_item">Salir</string>
+
+    <!-- NavigationDrawer -->
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <!-- BottomBar -->
+    <string name="tab_home">Home</string>
+    <string name="tab_collections">Colecciones</string>
+    <string name="tab_communities">Comunidades</string>
+    <string name="tab_notifications">Notificaciones</string>
+
+    <!-- Card Post -->
+    <string name="username_post_placeholder">Allen Walker</string>
+    <string name="collection_text_placeholder">Cosplay Style</string>
+    <string name="time_post_placeholder">39min</string>
+
+    <string name="post_placeholder_content">Characters: Nishikino Maki y Nico Yazawa from the anime Love Live.</string>
+    <string name="button_plus_one">+1</string>
+    <string name="plus_one_text_placeholder">150</string>
+    <string name="collection_name_placeholder">Cosplay World</string>
+    <string name="collection_owner_placeholder">Jesus Hatsune</string>
+    <string name="button_text_follow_true">Siguiendo</string>
+    <string name="home_page_title">Pagina Principal</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="community_placeholder_name">Cosplay World</string>
+    <string name="button_reject">Rechazar</string>
+    <string name="button_accept">Aceptar</string>
+    <string name="community_placeholder_members">1,389 miembros</string>
+    <string name="button_member">Miembro</string>
+    <string name="notification_community_card_placeholder">Kakashi Hatake y 7 personas mas publicaron</string>
+    <string name="login_confirm_password_hint">Confirmar contraseña</string>
+    <string name="confirm_signup_button_text">Registrarse</string>
+    <string name="email_signup_hint">Correo electronico</string>
+
+    <!-- Error messages -->
+    <string name="err_msg_email">Ingrese un email valido.</string>
+    <string name="err_msg_required">Requerido !!</string>
+    <string name="err_msg_password">Ingrese un password valido con 6 caracteres como minimo</string>
+    <string name="err_msg_password_dont_match">Las contraseñas no coinciden</string>
+    <string name="signup_failed_error_message">La tarea no pudo completarse, Intentelo de nuevo</string>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

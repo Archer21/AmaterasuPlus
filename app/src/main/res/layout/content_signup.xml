@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="56dp"
+    android:paddingBottom="32dp"
+    android:paddingRight="32dp"
+    android:paddingLeft="32dp"
+    android:background="@drawable/login_blur_background">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_title"
+        android:layout_marginBottom="48dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/email_txt_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/email_txt_input_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email_signup_hint" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password_txt_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_txt_input_layout">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/password_txt_input_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_password_hint" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/confirm_password_txt_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_txt_input_layout"
+        android:layout_marginBottom="8dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/confirm_password_txt_input_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_confirm_password_hint" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_signup_button_text"
+        android:background="@color/facebookColorLight"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/confirm_password_txt_input_layout"
+        android:textColor="@android:color/white"/>
+
+
+    <Button android:id="@+id/btn_link_login"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button_text"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textIcons"
+        android:layout_below="@+id/btn_signup"/>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/dont_have_account_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/btn_link_login">
+
+        <TextView
+            android:id="@+id/reset_text_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/grayColorText"
+            android:text="@string/reset_text_plain"/>
+
+        <TextView
+            android:id="@+id/reset_text_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textIcons"
+            android:textSize="12sp"
+            android:text="@string/reset_text_link" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dont_have_account_container"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"/>
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

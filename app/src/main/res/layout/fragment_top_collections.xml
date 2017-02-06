@@ -1,0 +1,10 @@
+<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top_collections_recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/collection_offset"
+    tools:context="com.archer.amaterasuplus.ui.fragment.TopCollectionsFragment">
+
+
+</android.support.v7.widget.RecyclerView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="post_offset">4</integer>
+    <integer name="collection_offset">2</integer>
+    <integer name="community_offset">2</integer>
+</resources>

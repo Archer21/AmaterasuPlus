@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:textColorPrimary">@color/primaryColorText</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    
+    <!-- Buttons -->
+
+    <style name="CardAcceptButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/button_accept</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/card_button_text_size</item>
+    </style>
+
+    <!-- Social Buttons -->
+
+    <style name="RaisedButton" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RaisedButtonGray" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/grayColor</item>
+        <item name="colorControlHighlight">@color/grayColorLight</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RaisedButtonFacebook" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/facebookColor</item>
+        <item name="colorControlHighlight">@color/facebookColorLight</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RaisedButtonTwitter" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/twitterColor</item>
+        <item name="colorControlHighlight">@color/twitterColorLight</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- EditText -->
+    <style name="EditTextWhite" parent="TextAppearance.AppCompat">
+        <item name="android:textColorHint">@color/secondaryColorText</item>
+        <item name="android:textSize">@dimen/edittext_textsize_login</item>
+        <item name="android:textColorPrimary">@color/editTextColorWhite</item>
+        <item name="colorAccent">@color/editTextColorWhite</item>
+        <item name="colorControlNormal">@color/editTextColorWhite</item>
+        <item name="colorControlActivated">@color/editTextColorWhite</item>
+    </style>
+
+    <!-- FlatButton -->
+    <style name="FollowFlatButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/grayColorLightOpacity</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorHighlight">@color/colorPrimaryDark</item>
+   </style>
+
+    <!-- TabLayout -->
+    <style name="CollectionsTabLayout" parent="Widget.Design.TabLayout">
+        <!--<item name="tabMaxWidth">@dimen/tab_max_width</item>-->
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <!--<item name="tabPaddingStart">12dp</item>-->
+        <!--<item name="tabPaddingEnd">12dp</item>-->
+        <item name="tabBackground">@color/bb_darkBackgroundColor</item>
+        <!--<item name="tabTextAppearance">@style/MyCustomTabTextAppearance</item>-->
+        <item name="tabSelectedTextColor">?android:textColorPrimary</item>
+    </style>
+
+    <!--<style name="MyCustomTabTextAppearance" parent="TextAppearance.Design.Tab">-->
+        <!--<item name="android:textSize">14sp</item>-->
+        <!--<item name="android:textColor">?android:textColorSecondary</item>-->
+        <!--<item name="textAllCaps">true</item>-->
+    <!--</style>-->
+
+    <dimen name="card_button_text_size">10sp</dimen>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

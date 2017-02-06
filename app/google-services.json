@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "658216325138",
+    "firebase_url": "https://amaterasuplus.firebaseio.com",
+    "project_id": "amaterasuplus",
+    "storage_bucket": "amaterasuplus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658216325138:android:e2e0d99d714e15ed",
+        "android_client_info": {
+          "package_name": "com.archer.amaterasuplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658216325138-19nqkc9k2mhnnj8pkrb53h7gapa11btr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.archer.amaterasuplus",
+            "certificate_hash": "A5850BE7F6CC3DFF6196FE3ECBD8059E525DA67E"
+          }
+        },
+        {
+          "client_id": "658216325138-198ng2cns3s32ulkssr4d05oj76p388b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfretw_bjdR2PqxF2cXH6LjgQAZ50lAyc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658216325138-198ng2cns3s32ulkssr4d05oj76p388b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_grid_item_height"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card:cardCornerRadius="@dimen/card_radius"
+    card:cardElevation="@dimen/card_elevation"
+    card:cardPreventCornerOverlap="false">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_simple_linear_height"
+        android:src="@drawable/koneko"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_grid_item_content_height"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:padding="@dimen/card_padding">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/collection_text_placeholder"
+            android:textSize="@dimen/card_title_text_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/members"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/community_placeholder_members"
+            android:textColor="@color/grayColorText"
+            android:layout_below="@+id/name"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:text="@string/button_member"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/button_accept"
+            android:layout_marginLeft="@dimen/flat_button_margin_left"
+            android:layout_marginStart="@dimen/flat_button_margin_left"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

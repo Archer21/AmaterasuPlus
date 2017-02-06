@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Colors -->
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="windowBackground">#EEEEEE</color>
+    <color name="lightColorPrimary">#FFCDD2</color>
+    <color name="textIcons">#FFFFFF</color>
+    <color name="primaryColorText">#212121</color>
+    <color name="secondaryColorText">#757575</color>
+    <color name="grayColorText">#aeadad</color>
+    <color name="grayColorLightOpacity">#72dcdcdc</color>
+    <color name="dividerColor">#BDBDBD</color>
+    <!--<color name="statusBarColor">#0288D1</color>-->
+    <!--<color name="navigationBarColor">#0288D1</color>-->
+
+
+    <!-- Buttons Color -->
+    <color name="button_accept">#0F9D58</color>
+    <color name="facebookColor">#3B5998</color>
+    <color name="facebookColorLight">#4770B0</color>
+    <color name="twitterColor">#2B97DF</color>
+    <color name="twitterColorLight">#00BBF2</color>
+    <color name="grayColor">#ACC9CF</color>
+    <color name="grayColorLight">#c0dfe6</color>
+
+    <!-- EditText -->
+    <color name="editTextColorWhite">#FFFFFF</color>
+
+    <!-- BottomBar -->
+    <color name="bottom_bar_dark">#212121</color>
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_simple_linear_height"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    card:contentPaddingLeft="@dimen/card_padding"
+    card:contentPaddingRight="@dimen/card_padding"
+    card:contentPaddingTop="@dimen/card_half_padding"
+    card:contentPaddingBottom="@dimen/card_half_padding"
+    card:cardCornerRadius="@dimen/card_radius"
+    card:cardElevation="@dimen/card_elevation"
+    card:cardPreventCornerOverlap="false">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/card_icon_button_size"
+            android:layout_height="@dimen/card_icon_button_size"
+            android:scaleType="centerCrop"
+            android:src="@drawable/avatar"
+            android:layout_marginRight="@dimen/card_padding"
+            android:layout_marginEnd="@dimen/card_padding"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image"
+            android:layout_toEndOf="@+id/image"
+            android:text="@string/community_placeholder_name"
+            android:textStyle="bold"
+            android:textSize="@dimen/card_title_text_size"
+            android:layout_marginBottom="4dp"/>
+
+        <TextView
+            android:id="@+id/last_publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_community_card_placeholder"
+            android:layout_toRightOf="@+id/image"
+            android:layout_toEndOf="@+id/image"
+            android:textSize="12sp"
+            android:layout_below="@+id/name"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

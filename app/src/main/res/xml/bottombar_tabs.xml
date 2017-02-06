@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+
+
+    <tab
+        id="@+id/home"
+        title="@string/tab_home"
+        barColorWhenSelected="@color/bottom_bar_dark"
+        icon="@mipmap/ic_home"
+        />
+
+    <tab
+        id="@+id/collections"
+        title="@string/tab_collections"
+        barColorWhenSelected="@color/bottom_bar_dark"
+        icon="@mipmap/ic_collections"
+        />
+
+    <tab
+        id="@+id/communities"
+        title="@string/tab_communities"
+        barColorWhenSelected="@color/bottom_bar_dark"
+        icon="@mipmap/ic_communities"
+        />
+
+    <tab
+        id="@+id/notifications"
+        title="@string/tab_notifications"
+        barColorWhenSelected="@color/bottom_bar_dark"
+        icon="@mipmap/ic_notifications"
+        />
+</tabs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
